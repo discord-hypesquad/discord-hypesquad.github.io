@@ -19,7 +19,7 @@ $('.bravery').click(function() {
 
 		html2canvas(document.querySelector('#profilePicture'), {
 			allowTaint: true,
-			logging: true,
+			logging: false,
 			taintTest: false
 		}).then(canvas => {
 			var canvasExists = document.getElementById('render').querySelector('canvas');
@@ -44,7 +44,7 @@ $('.balance').click(function() {
 
 		html2canvas(document.querySelector('#profilePicture'), {
 			allowTaint: true,
-			logging: true,
+			logging: false,
 			taintTest: false
 		}).then(canvas => {
 			var canvasExists = document.getElementById('render').querySelector('canvas');
@@ -69,7 +69,7 @@ $('.brilliance').click(function() {
 
 		html2canvas(document.querySelector('#profilePicture'), {
 			allowTaint: true,
-			logging: true,
+			logging: false,
 			taintTest: false
 		}).then(canvas => {
 			var canvasExists = document.getElementById('render').querySelector('canvas');
