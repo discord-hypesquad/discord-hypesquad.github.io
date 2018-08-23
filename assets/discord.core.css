@@ -132,7 +132,7 @@ input:focus, button:focus {
     outline: none;
 }
 .discord {
-    background-image: url(hypesquad.png);
+    background-image: url(logo.png);
     background-color: #7289DA;
     background-size: contain;
     height:20vmax;
@@ -156,7 +156,7 @@ input:focus, button:focus {
     background-color: #7289DA;
     height: 10vmax;
     width: 10vmax;
-    top: calc(60% - 3vmax);
+    top: calc(63% - 3vmax);
     left: calc(65% - 3vmax);
     animation-duration: .7s;
     animation-delay: -.3s;
@@ -170,6 +170,17 @@ input:focus, button:focus {
     top: calc(58% - 5vmax);
     left: calc(28% - 5vmax);
     animation-duration: .8s;
+    animation-delay: -.3s;
+}
+.attendee {
+    background-image: url(hypesquad.png);
+    background-size: contain;
+    background-color: #7289DA;
+    height: 10vmax;
+    width: 10vmax;
+    top: calc(15% - 3vmax);
+    left: calc(29% - 3vmax);
+    animation-duration: .5s;
     animation-delay: -.3s;
 }
 
@@ -204,3 +215,4 @@ footer {
     right: 0;
     padding: 1rem;
 }
+.html2canvas-container { width: 3000px !important; height: 3000px !important; }
